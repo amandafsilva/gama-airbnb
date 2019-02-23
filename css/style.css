@@ -32,6 +32,12 @@ body {
     height: 45px;
 }
 
+.search-bar {
+    margin-left: auto;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
 .header-logo {
     display: flex;
     align-items: center;
@@ -40,8 +46,4 @@ body {
 .header-logo img {
     height: 30px;
     margin-right: 1rem;
-}
-
-.header-links {
-    margin-left: auto;
 }
