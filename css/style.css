@@ -13,14 +13,18 @@ body {
 
 .page-header {
     display: flex;
-    align-content: center;
     background-color: #fff;
     border-bottom: 1px solid #ececec;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
+    height: 55px;
 }
 
 .page-body {
-
+    display: flex;
+    padding: 1rem;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .form-control {
@@ -30,6 +34,32 @@ body {
     border: 1px solid #ececec;
     border-radius: 4px;
     height: 45px;
+    font-family: 'Lato';
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(250, 90, 98, .3);
+    border: 1px solid rgba(250, 90, 98, .3);
+}
+
+.search-bar-container {
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+    padding-left: 2rem;
+}
+
+.search-bar-container i {
+    color: #4b4b4b;
+    position: absolute;
+    top: 35%;
+    left: 5%;
 }
 
 .header-logo {
@@ -40,8 +70,4 @@ body {
 .header-logo img {
     height: 30px;
     margin-right: 1rem;
-}
-
-.header-links {
-    margin-left: auto;
 }
