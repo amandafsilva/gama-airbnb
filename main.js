@@ -80,19 +80,19 @@ domReady(function() {
 
 });
 
-function busca(texto) {
-    var arrayId;
-    arrayId = arrayDaBusca.filter(function(item) {
-        return item.text == texto;
-    });
-    id = arrayId[0];
-    console.log('aqui')
-    console.log(arrayId);
-    imoveis = JSON.parse(localStorage.getItem('imoveis'));
-    var imovel = imoveis.find(function(imovel){
-        return imovel.id == id;
-    });
-    console.log(arrayDaBusca);
-}
+// function busca(texto) {
+//     var arrayId;
+//     arrayId = arrayDaBusca.filter(function(item) {
+//         return item.text == texto;
+//     });
+//     id = arrayId[0];
+//     console.log('aqui')
+//     console.log(arrayId);
+//     imoveis = JSON.parse(localStorage.getItem('imoveis'));
+//     var imovel = imoveis.find(function(imovel){
+//         return imovel.id == id;
+//     });
+//     console.log(arrayDaBusca);
+// }
 
-busca('SP');
+// busca('SP');
