@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: 'Lato';
+    color: #4b4b4b;
 }
 
 .main-page {
@@ -70,4 +71,46 @@ body {
 .header-logo img {
     height: 30px;
     margin-right: 1rem;
+}
+
+.acomodacao-page {
+    height: 500px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.photo-acomodacao {
+    width: 100%;
+    height: 80%;
+}
+
+.photo-acomodacao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-description {
+    padding: .5rem;
+    padding-left: 0;
+}
+
+.descript-acomodacao {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+.valor-acomodacao {
+    margin-bottom: .2rem;
+}
+
+.valor-acomodacao span {
+    font-size: 14px;
+}
+
+.valor-diaria {
+    font-weight: bold;
 }
